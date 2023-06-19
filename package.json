@@ -1,0 +1,24 @@
+{
+  "name": "animatedportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serer.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinBeuttler/animatedPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColinBeuttler/animatedPortfolio/issues"
+  },
+  "homepage": "https://github.com/ColinBeuttler/animatedPortfolio#readme"
+}
