@@ -36,6 +36,10 @@ content: "<";
     content: ">";
 }
 
+#about:hover + .biotext{
+    display: block;
+}
+
 .biotext{
     display: none;
     color: rgb(198, 196, 196);
@@ -74,11 +78,18 @@ content: "<";
   .divider::after{
     margin-left: var(--text-divider-gap);
   } */
+#contacts:hover + .contacts{
+    display: block;
+}
 
-  /* .contacts ::after{
-    content: "  |  ";
+.contacts{
+    display: none;
+}
+
+  .contacts ::after{
+    margin-top: 4%;
     color: black;
-  } */
+  }
 
   .contactlink::after{
     content: "  |  ";
