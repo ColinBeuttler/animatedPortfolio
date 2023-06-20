@@ -1,5 +1,6 @@
 body{
-    background-color: dimgrey;
+    background-color: rgb(45, 50, 39);
+    font-family: Lato,Helvetica,Arial,sans-serif;
     
 }
 .bio{
@@ -11,18 +12,44 @@ body{
 
 .head{
     content: none;
-    color: bisque;
-    font-size: 40px;
+    color: antiquewhite;
+    font-size: 32px;
     word-spacing: 8px;
 
 }
 
 .biotext{
-    color: white;
+    color: rgb(198, 196, 196);
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 20px;
-    line-height: 37px;
+    font-size: 16px;
+    line-height: 35px;
     
 
 }
+
+.divider {
+    --text-divider-gap: 1rem;
+    display: flex;
+  align-items: center; 
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    color: cornsilk;
+  }
+
+  .divider::before,
+  .divider::after{
+    content: "";
+    height: 1px;
+    background-color: cornsilk;
+    flex-grow: 1;
+  }
+
+  .divider::before{
+    margin-right: var(--text-divider-gap);
+  }
+  
+  .divider::after{
+    margin-left: var(--text-divider-gap);
+  }
