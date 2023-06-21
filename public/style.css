@@ -18,10 +18,12 @@ body{
 }
 .menu{
     font-size: 40px;
+    font-weight: bolder;
+    
 }
 
 .menu::before{
-content: "<";
+    content: "<";
 }
 .menu::after{
     content: ">";
@@ -32,7 +34,8 @@ content: "<";
     color: blue;
     letter-spacing: 4rem;
     -webkit-transition: all 1s ease;
-  transition: all 1.3s ease;
+    transition: all 1.3s ease;
+  
 }
 
 .bio{
@@ -86,6 +89,7 @@ content: "<";
 }
 
   #biotext{
+    padding-left: 8rem;
     border-top-color: white;
     text-align: left;
     /* border-style: inset; */
@@ -94,7 +98,7 @@ content: "<";
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
     /* display: none; */
     font-size: 16px;
-    line-height: 35px;
+    line-height: 20px;
 }
 
 #codepanel{
