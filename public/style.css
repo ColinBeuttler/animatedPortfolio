@@ -17,7 +17,7 @@ body{
 
 }
 .menu{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .menu::before{
@@ -28,7 +28,11 @@ content: "<";
 }
 
 .menu:hover{
+    font-size: 60px;
     color: blue;
+    letter-spacing: 4rem;
+    -webkit-transition: all 1s ease;
+  transition: all 1.3s ease;
 }
 
 .bio{
@@ -130,18 +134,17 @@ content: "<";
     color: black;
   }
 
-  .contactlink::after{
+  /* .contactlink::after{
     content: "  |  ";
     color: black;
     text-decoration: none;
-  }
+  } */
 
   .contactlink{
-    height: 100px;
-    width: 100px;
-    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
     background-position: center; 
-    position: relative;
+    object-fit: scale-down;
   }
 
   #github{
