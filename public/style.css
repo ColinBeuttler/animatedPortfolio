@@ -75,8 +75,6 @@ content: "<";
     padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
-    color: white;
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
 }
 
 #about:active + .biotext{
@@ -104,12 +102,19 @@ content: "<";
 }
 
 #otherpanel{
-    background-color: black;
+    background-image: url("img/dragonIsland.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+
 }
 
 #contactpanel{
-    /* background-color: white; */
-    margin-bottom: 10%;
+    background-image: url("img/dragonmouth.jpg");
+    margin-bottom: 20%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
 }
 
 #contacts:hover + .contacts{
@@ -129,4 +134,28 @@ content: "<";
     content: "  |  ";
     color: black;
     text-decoration: none;
+  }
+
+  .contactlink{
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+
+  #github{
+    background-image: url("img/github.png");
+  }
+
+  #linkedIn{
+    background-image: url("img/Linkedin-logo-png.png");
+  }
+
+  #gmail{
+    background-image: url("img/Gmail_Logo_512px.png");
+  }
+
+  #hotmail{
+    background-image: url("img/hotmail.png");
   }
