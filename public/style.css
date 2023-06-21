@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(231, 231, 231);
+    background-color:white;
 
     
 }
@@ -72,9 +72,9 @@ content: "<";
   } */
 
   .panel{
-    height: 200px;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 230px;
+    margin-left: 7%;
+    margin-right: 7%;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
@@ -114,7 +114,7 @@ content: "<";
 }
 
 #contactpanel{
-    background-image: url("img/dragonmouth.jpg");
+    /* background-image: url("img/dragonmouth.jpg"); */
     margin-bottom: 20%;
     background-repeat: no-repeat;
     background-position: center; 
@@ -141,22 +141,31 @@ content: "<";
   } */
 
   .contactlink{
-    height: 200px;
-    width: 200px;
+
+    height: 100px;
+    width: 100px;
     background-position: center; 
-    object-fit: scale-down;
+    object-fit: fill;
+    border-radius: .7rem;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-width:3px;
+    border-style:solid;
+    border-color:black;
   }
 
   #github{
-    background-image: url("img/github.png");
+    background: url("img/github-mark.png");
+    background-color: black;
   }
 
   #linkedIn{
-    background-image: url("img/Linkedin-logo-png.png");
+    background-image: url("img/Sicons-Flat-Shadow-Social-Linkedin.512.png");
   }
 
   #gmail{
-    background-image: url("img/Gmail_Logo_512px.png");
+    background-image: url("img/Gmail_Logo_128px.png");
   }
 
   #hotmail{
