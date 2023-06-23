@@ -1,10 +1,17 @@
 const about = document.getElementById("about")
-const bio = document.getElementsByClassName("biotext")
+const bio = document.getElementById("biotext")
 
 
-about.addEventListener("click", displayBio())
+about.onclick = function(){displayBio()}
 
 function displayBio(){
-    console.log("display")
-    bio.style.display = "block"
+
+    if(bio.style = "display:none"){
+       bio.style = "display:block" 
+    }
+  else if(bio.style = "display:block"){
+    console.log(bio.style)
+    bio.style = "display:none"
+  }
+    
 }
