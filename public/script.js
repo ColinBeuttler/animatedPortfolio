@@ -14,7 +14,7 @@ const contactpanel = document.getElementById("contactpanel")
 about.onclick = function(){displayDiv(bio)}
 code.onclick = function(){displayDiv(codepanel)}
 other.onclick = function(){displayDiv(otherpanel)}
-contact.onclick = function(){displayDiv(contactpanel)}
+contact.onclick = function(){displaycontact()}
 
 function displayDiv(divbox){
 
@@ -27,8 +27,17 @@ function displayDiv(divbox){
     
 }
 
+function displaycontact(){
+    if(contactpanel.style.display != "none"){
+        contactpanel.style = "display:none"
+    }
+    else{
+        contactpanel.style = "display:inline-block"
+    }
+}
 
-displayDiv(contactpanel)
+
+displaycontact()
 displayDiv(otherpanel)
 displayDiv(codepanel)
 displayDiv(bio)
