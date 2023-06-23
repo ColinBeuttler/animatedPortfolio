@@ -22,7 +22,6 @@ function displayDiv(divbox){
        divbox.style = "display:none" 
     }
   else{
-    console.log(divbox.style)
     divbox.style = "display:block"
   }
     
