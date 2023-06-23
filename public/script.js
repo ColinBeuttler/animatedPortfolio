@@ -19,10 +19,13 @@ contact.onclick = function(){displaycontact()}
 function displayDiv(divbox){
 
     if(divbox.style.display != "none"){
-       divbox.style = "display:none" 
+       divbox.style = "display:none"
+       divbox.classList.add("panel", "out") 
     }
   else{
     divbox.style = "display:block"
+    divbox.classList.add("panel", "in")
+
   }
     
 }
