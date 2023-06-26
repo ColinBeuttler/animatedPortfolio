@@ -7,14 +7,10 @@ const codepanel = document.getElementById("codepanel")
 const other = document.getElementById("other")
 const otherpanel = document.getElementById("otherpanel")
 
-const contact = document.getElementById("contacts")
-const contactpanel = document.getElementById("contactpanel")
-
 
 about.onclick = function(){displayDiv(bio)}
 code.onclick = function(){displayDiv(codepanel)}
 other.onclick = function(){displayDiv(otherpanel)}
-contact.onclick = function(){displaycontact()}
 
 function displayDiv(divbox){
 
@@ -29,18 +25,6 @@ function displayDiv(divbox){
   }
     
 }
-
-function displaycontact(){
-    if(contactpanel.style.display != "none"){
-        contactpanel.style = "display:none"
-    }
-    else{
-        contactpanel.style = "display:inline-block"
-    }
-}
-
-
-displaycontact()
 displayDiv(otherpanel)
 displayDiv(codepanel)
 displayDiv(bio)
