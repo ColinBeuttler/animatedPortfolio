@@ -15,6 +15,7 @@ body {
 }
 
 .bio { 
+    line-height: 35px;
     padding-top: 10%;
     float: left;
     padding-left: 5rem;
@@ -28,16 +29,17 @@ body {
     float: left;
     font-size: 60px;
     letter-spacing: 1rem;
+    color: #EA3D34;
 }
 
 .welcome:after {
     font-family: sans-serif;
     content: ",";
-    color: red;
+    color: #45793E;
 }
 
 .im { 
-    margin-left: 3.5rem;
+    margin-left: 1.5rem;
     color: black;
      font-size: 50px;
  } 
@@ -47,7 +49,6 @@ body {
     width: 100%;
     letter-spacing: 1rem;
     content: none;
-    color: #B5D8CC;
     font-size: 50px;
     word-spacing: 8px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -58,19 +59,29 @@ body {
 
 }
 
+.colin{
+    color: #1C7FA1;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1rem;
+    /* border-bottom: 0.3rem dotted rgb(238, 5, 5); */
+}
+
 .colin:hover{
-    text-shadow: #fc0 1px 0 10px; 
+    /* border-bottom: 0.3rem dashed rgb(238, 5, 5); */
+    /* text-shadow: rgb(14, 172, 106) 1px 0 10px;  */
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
 
 .divider {
-    margin-left: 13.7rem;
+    /* border-bottom: 0.3rem dotted rgb(0, 0, 0); */
+    margin-left: 13.5rem;
     --text-divider-gap: 1rem;
     display: flex;
     align-items: center;
-    width: 68%;
-    margin-top: 1rem;
+    width: 75%;
+    margin-top: 2rem;
     color: black;
     /* margin-bottom: 2%; */
 }
@@ -93,25 +104,26 @@ body {
 
 
 .skillnode {
-    margin-left: 13rem;
-    word-spacing: .5rem;
+    margin-left: 16rem;
     position: absolute;
     justify-content: center;
     width: 100%;
 }
 
 .innernode {
-    padding-left: 1rem;
+    padding-left: 2.5rem;
     padding-right: 1rem;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     position: relative;
+    font-size: 20px;
     /* margin-right: .2rem; */
     height: 22px;
     border-radius: .2rem;
     /* background-color: #72E1D1; */
     color: black;
 }
+
 
 .node-separtor{
     font-size: 20px;
