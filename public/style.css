@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #C8D3BD;
 }
 
 .portrait {
@@ -16,36 +16,39 @@ body {
 
 .bio { 
     line-height: 35px;
-    padding-top: 10%;
+    padding-top: 13%;
     float: left;
-    padding-left: 5rem;
+    padding-left: 9rem;
     /* background-color: black; */
     /* /* height: 20%; */
 
 }
 
 .welcome {
-    width: 100%;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    /* width: 100%; */
     float: left;
     font-size: 60px;
     letter-spacing: 1rem;
-    color: #EA3D34;
+    color: #83385C;
 }
 
 .welcome:after {
     font-family: sans-serif;
-    content: ",";
-    color: #45793E;
+    content: "!";
+    color: grey;
 }
 
 .im { 
-    margin-left: 1.5rem;
-    color: black;
+    letter-spacing: 1.2rem;
+    margin-left: 2rem;
+    color: grey;
      font-size: 50px;
  } 
 
 .name {
-    margin-left: 1rem;
+    margin-top: 4rem;
     width: 100%;
     letter-spacing: 1rem;
     content: none;
@@ -60,7 +63,7 @@ body {
 }
 
 .colin{
-    color: #1C7FA1;
+    color: black;
     font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 1rem;
@@ -74,10 +77,17 @@ body {
     transition: all .3s ease;
 }
 
+.beuttler{
+    color: black;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1rem;
+}
+
 .divider {
-    border-bottom: 0.2rem dashed  rgb(0, 0, 0);
+    /* border-bottom: 0.2rem dashed  rgb(0, 0, 0); */
     /* margin-left: 13.5rem; */
-    /* --text-divider-gap: 1rem; */
+    --text-divider-gap: 1rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -105,15 +115,14 @@ body {
 
 .skillnode {
     margin-top: -1rem;
-    margin-left: 16rem;
+    margin-left: 1rem;
     position: absolute;
     justify-content: center;
-    width: 100%;
 }
 
 .innernode {
-    padding-left: 2.5rem;
-    padding-right: 1rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     position: relative;
@@ -127,19 +136,21 @@ body {
 
 
 .node-separtor{
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 30px;
     position: relative;
     color: darkgray;
 }
 
 .innernode:hover {
+    cursor: pointer;
     transform: translateY(-7px);
     /* box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3); */
     height: 40px;
     width: 70px;
-    text-shadow:1px 1px 2px black;
+    text-shadow:1px 1px 2px #504545;
     /* background-color: #8A7090; */
-    color: #B5D8CC;
+    color: white;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 
@@ -364,7 +375,7 @@ body {
 
 #gmail:hover {
     text-shadow:1px 1px 2px black;
-    color: #72E1D1;
+    color: white;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
