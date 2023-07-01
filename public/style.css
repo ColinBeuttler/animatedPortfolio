@@ -75,12 +75,12 @@ body {
 }
 
 .divider {
-    /* border-bottom: 0.3rem dotted rgb(0, 0, 0); */
-    margin-left: 13.5rem;
-    --text-divider-gap: 1rem;
+    border-bottom: 0.2rem dashed  rgb(0, 0, 0);
+    /* margin-left: 13.5rem; */
+    /* --text-divider-gap: 1rem; */
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 100%;
     margin-top: 2rem;
     color: black;
     /* margin-bottom: 2%; */
@@ -104,6 +104,7 @@ body {
 
 
 .skillnode {
+    margin-top: -1rem;
     margin-left: 16rem;
     position: absolute;
     justify-content: center;
