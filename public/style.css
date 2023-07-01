@@ -1,0 +1,370 @@
+body {
+    background-color: white;
+}
+
+.portrait {
+    margin-right: 5%;
+    background-position: center;
+    margin-top: 4.5rem;
+    height: 120px;
+    width: 112px;
+    float: left;
+    background-color: black;
+    border-radius: 5rem;
+    background-image: url("img/2nniue.jpg");
+}
+
+.bio { 
+    line-height: 35px;
+    padding-top: 10%;
+    float: left;
+    padding-left: 5rem;
+    /* background-color: black; */
+    /* /* height: 20%; */
+
+}
+
+.welcome {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    letter-spacing: 1rem;
+    color: #EA3D34;
+}
+
+.welcome:after {
+    font-family: sans-serif;
+    content: ",";
+    color: #45793E;
+}
+
+.im { 
+    margin-left: 1.5rem;
+    color: black;
+     font-size: 50px;
+ } 
+
+.name {
+    margin-left: 1rem;
+    width: 100%;
+    letter-spacing: 1rem;
+    content: none;
+    font-size: 50px;
+    word-spacing: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.colin{
+    color: #1C7FA1;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1rem;
+    /* border-bottom: 0.3rem dotted rgb(238, 5, 5); */
+}
+
+.colin:hover{
+    /* border-bottom: 0.3rem dashed rgb(238, 5, 5); */
+    /* text-shadow: rgb(14, 172, 106) 1px 0 10px;  */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.divider {
+    border-bottom: 0.2rem dashed  rgb(0, 0, 0);
+    /* margin-left: 13.5rem; */
+    /* --text-divider-gap: 1rem; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    color: black;
+    /* margin-bottom: 2%; */
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    height: 1px;
+    background-color: black;
+    flex-grow: 1;
+}
+
+/* .divider::before{
+    margin-right: var(--text-divider-gap);
+  }
+  
+  .divider::after{
+    margin-left: var(--text-divider-gap);
+  } */
+
+
+.skillnode {
+    margin-top: -1rem;
+    margin-left: 16rem;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
+
+.innernode {
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    /* margin-right: .2rem; */
+    height: 22px;
+    border-radius: .2rem;
+    /* background-color: #72E1D1; */
+    color: black;
+}
+
+
+.node-separtor{
+    font-size: 20px;
+    position: relative;
+    color: darkgray;
+}
+
+.innernode:hover {
+    transform: translateY(-7px);
+    /* box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3); */
+    height: 40px;
+    width: 70px;
+    text-shadow:1px 1px 2px black;
+    /* background-color: #8A7090; */
+    color: #B5D8CC;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+
+}
+
+.menu {
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+@media (hover:hover) and (max-width:505px) {
+    .menu:hover {
+        font-size: 40px;
+        letter-spacing: .5rem;
+    }
+}
+
+.menu::before {
+    content: "<";
+}
+
+.menu::after {
+    content: ">";
+}
+
+.menu:hover {
+    text-shadow:3px 3px 7px black;
+    font-size: 60px;
+    color: blue;
+    letter-spacing: 1.4rem;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+
+
+}
+
+
+.menubody {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+@media screen and (max-width:1241px) {
+    .menubody {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .menubody {
+        top: 55%
+    }
+}
+
+@media screen and (max-width:649px) {
+    .menubody {
+        top: 55%
+    }
+}
+
+.panel {
+    height: 230px;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: .2rem;
+}
+
+.panel:hover {
+    height: 400px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+
+.in {
+    -webkit-transition: all 1s ease;
+    transition: "in:wipe:cinematic";
+}
+
+.out {
+    -webkit-transition: all 1s ease;
+    transition: "out:wipe:cinematic";
+}
+
+
+#about:active+.biotext {
+    display: block;
+}
+
+#biotext {
+    padding-left: 8rem;
+    border-top-color: white;
+    text-align: left;
+    /* border-style: inset; */
+    background-color: black;
+    color: white;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    /* display: none; */
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#codepanel {
+    background-image: url("img/pixelcloudcastle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    /* display: none; */
+
+}
+
+.innerpanel {
+    padding: 1rem;
+    background-color: white;
+    margin-top: 2rem;
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.innerpanel:hover {
+    transform: translateY(-7px);
+    box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.space-between {
+    width: 10rem;
+}
+
+#projectspanel {
+    background-image: url("img/dragonIsland.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    /* display: none; */
+
+}
+
+#contactpanel {
+    width: 92%;
+}
+
+.contactlink {
+    background-position: center;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+
+.contactlink:hover {
+    transform: translateY(-5px);
+    box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#github {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    float: right;
+    height: 39px;
+    width: 39px;
+    background-color: black;
+    border-radius: 4rem;
+    background: url("img/github-mark40px.png");
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 337px) {
+    #github {
+        margin-top: .5rem;
+        float: left;
+        margin-left: 1rem;
+    }
+}
+
+#linkedIn {
+    float: right;
+    margin-top: 1rem;
+    height: 42px;
+    width: 42px;
+    background-image: url("img/Linkedin50px.png");
+}
+
+@media screen and (max-width: 336px) {
+    #linkedIn {
+        float: left;
+        margin-top: .5rem;
+        margin-left: .5rem;
+    }
+}
+
+#gmail {
+    text-decoration: dashed;
+    font-family: fantasy;
+    padding-left: 1.3rem;
+    float: right;
+    margin-top: 1.7rem;
+    border-radius: .9rem;
+    height: 86px;
+    width: 105px;
+    color: #285943;
+    font-size: 16px;
+}
+
+#gmail:hover {
+    text-shadow:1px 1px 2px black;
+    color: #72E1D1;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
