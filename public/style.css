@@ -30,7 +30,7 @@ body {
     /* width: 100%; */
     float: left;
     font-size: 60px;
-    letter-spacing: 1rem;
+    letter-spacing: .5rem;
     color: #83385C;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .im { 
-    letter-spacing: 1.2rem;
+    letter-spacing: .7rem;
     margin-left: 2rem;
     color: grey;
      font-size: 50px;
@@ -50,7 +50,7 @@ body {
 .name {
     margin-top: 4rem;
     width: 100%;
-    letter-spacing: 1rem;
+    letter-spacing: .5rem;
     content: none;
     font-size: 50px;
     word-spacing: 8px;
@@ -115,13 +115,13 @@ body {
 
 .skillnode {
     margin-top: -1rem;
-    margin-left: 1rem;
+    /* margin-left: .5rem; */
     position: absolute;
     justify-content: center;
 }
 
 .innernode {
-    padding-left: 1.3rem;
+    padding-left: .7rem;
     padding-right: 2rem;    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -219,7 +219,7 @@ body {
 
 @media screen and (max-width:649px) {
     .menubody {
-        top: 55%
+        top: 60%
     }
 }
 
