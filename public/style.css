@@ -291,17 +291,21 @@ body {
 }
 
 .innerpanel {
+    height: 300px;
+    width: auto;
     filter: grayscale(1);
     /* background-color: white; */
     display: inline-block;
-    height: auto;
-    width: 50%;
+    /* height: auto;
+    width: 50%; */
     text-align: center;
     border-radius: 5px;
 
 }
 
 .innerpanel:hover {
+    height: 300px;
+    width: auto;
     filter: grayscale(0);
     transform: translateY(-7px);
     box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
@@ -313,6 +317,14 @@ body {
     width: 10rem;
 }
 
+.codeheadline{
+    position: absolute;
+    color: azure;
+    background-color: #285943;
+    font-size: 40px;
+    z-index: 100;
+}
+
 #projectspanel {
     background-image: url("img/dragonIsland.jpg");
     background-repeat: no-repeat;
@@ -322,7 +334,7 @@ body {
     /* display: none; */
 }
 
-#dragon-chronicles{
+/* #dragon-chronicles{
     height: 300px;
     width: auto;
 }
@@ -340,7 +352,7 @@ body {
 #restaurantApp{
     height: 300px;
     width: auto;
-}
+} */
 
 
 #contactpanel {
