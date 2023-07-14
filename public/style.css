@@ -285,6 +285,7 @@ body {
     background-position: center;
     position: relative;
     display: flex;
+    width: auto;
     /* display: none; */
 
 }
@@ -332,6 +333,11 @@ body {
 }
 
 #mapty{
+    height: 300px;
+    width: auto;
+}
+
+#restaurantApp{
     height: 300px;
     width: auto;
 }
