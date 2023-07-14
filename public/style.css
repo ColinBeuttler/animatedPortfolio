@@ -291,9 +291,9 @@ body {
 
 .innerpanel {
     filter: grayscale(1);
-    background-color: white;
+    /* background-color: white; */
     display: inline-block;
-    height: 100%;
+    height: auto;
     width: 50%;
     text-align: center;
     border-radius: 5px;
@@ -319,15 +319,23 @@ body {
     position: relative;
     display: flex;
     /* display: none; */
-
 }
 
-.innerprojectpanel{
-    max-width: 300px;
-    background-size: cover;
-    overflow: hidden;
+#dragon-chronicles{
     height: 300px;
+    width: auto;
 }
+
+#blackjack{
+    height: 300px;
+    width: auto;
+}
+
+#mapty{
+    height: 300px;
+    width: auto;
+}
+
 
 #contactpanel {
     width: 92%;

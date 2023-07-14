@@ -7,8 +7,7 @@ const codepanel = document.getElementById("codepanel")
 const other = document.getElementById("other")
 const otherpanel = document.getElementById("otherpanel")
 
-const codeVideopanel = document.querySelectorAll(".innerpanel")
-const projectVideoPanel = document.querySelectorAll(".innerprojectpanel")
+const videopanel = document.querySelectorAll(".innerpanel")
 
 function addVideoPlay(panel) {
 
@@ -22,8 +21,7 @@ function addVideoPlay(panel) {
 }
 };
 
-addVideoPlay(codeVideopanel);
-addVideoPlay(projectVideoPanel);
+addVideoPlay(videopanel);
 
 
 
