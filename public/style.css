@@ -286,9 +286,9 @@ body {
 #biotext p:nth-child(2) {
     visibility: hidden;
     width: 27.5em;
-    border-right: .15em solid azure;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
+    border-right: .15em solid orange;
+    -webkit-animation: type1 2s steps(40, end);
+    animation: type1 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-delay: 2s;
@@ -299,9 +299,9 @@ body {
 #biotext p:nth-child(3) {
     visibility: hidden;
     width: 35.8em;
-    border-right: .15em solid azure;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
+    border-right: .15em solid orange;
+    -webkit-animation: type1 2s steps(40, end);
+    animation: type1 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-delay: 4.1s;
@@ -311,10 +311,10 @@ body {
 
 #biotext p:nth-child(4) {
     visibility: hidden;
-    width: 20.5em;
-    border-right: .15em solid azure;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
+    width: 21.8em;
+    border-right: .15em solid orange;
+    -webkit-animation: type1 2s steps(40, end);
+    animation: type1 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-delay: 6.2s;
@@ -326,9 +326,9 @@ body {
 #biotext p:nth-child(5) {
     visibility: hidden;
     width: 24.3em;
-    border-right: .15em solid azure;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
+    border-right: .15em solid orange;
+    -webkit-animation: type1 2s steps(40, end);
+    animation: type1 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-delay: 8.5s;
@@ -339,9 +339,9 @@ body {
 #biotext p:nth-child(6) {
     visibility: hidden;
     width: 21em;
-    border-right: .15em solid azure;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
+    border-right: .15em solid orange;
+    -webkit-animation: type1 2s steps(40, end);
+    animation: type1 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-delay: 10.7s;
@@ -349,7 +349,20 @@ body {
 
 }
 
-@keyframes type2 {
+#biotext p:nth-child(7) {
+    opacity: 0;
+    width: 7em;
+    border-right: .15em solid orange;
+    -webkit-animation: type1 2s steps(40, end) blink .5s step-end infinite alternate;
+    animation: type1 2s steps(40, end) blink .5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 12.8s;
+    -webkit-animation-delay: 12.8s;
+
+}
+
+@keyframes type1 {
     0% {
         width: 0;
         visibility: visible;
@@ -362,6 +375,34 @@ body {
     100% {
         border: none;
         visibility: visible;
+    }
+}
+
+@-webkit-keyframes type1 {
+    0% {
+        width: 0;
+    }
+
+    99.9% {
+        border-right: .15em solid orange;
+    }
+
+    100% {
+        border: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 
@@ -370,12 +411,12 @@ body {
         width: 0;
     }
 
-    99.9% {
-        border-right: .15em solid orange;
+    1% {
+        opacity: 1;
     }
 
     100% {
-        border: none;
+        opacity: 1;
     }
 }
 
