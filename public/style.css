@@ -3,10 +3,11 @@ body {
 }
 
 @keyframes slideInFromLeft {
-    0%{
+    0% {
         transform: translateX(-100%);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
 }
@@ -23,14 +24,14 @@ body {
     background-image: url("img/2nniue.jpg");
 }
 
-.bio { 
+.bio {
     line-height: 35px;
     padding-top: 13%;
     float: left;
     padding-left: 9rem;
 }
 
-.greeting{
+.greeting {
     animation: .7s ease-out .7s 1 slideInFromLeft;
 }
 
@@ -49,12 +50,12 @@ body {
     color: grey;
 }
 
-.im { 
+.im {
     letter-spacing: .7rem;
     margin-left: 2rem;
     color: grey;
-     font-size: 50px;
- } 
+    font-size: 50px;
+}
 
 .name {
     animation: 1s ease-out 1s 1 slideInFromLeft;
@@ -72,7 +73,7 @@ body {
 
 }
 
-.colin{
+.colin {
     color: black;
     font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,14 +81,14 @@ body {
     /* border-bottom: 0.3rem dotted rgb(238, 5, 5); */
 }
 
-.colin:hover{
+.colin:hover {
     /* border-bottom: 0.3rem dashed rgb(238, 5, 5); */
     /* text-shadow: rgb(14, 172, 106) 1px 0 10px;  */
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
 
-.beuttler{
+.beuttler {
     color: black;
     font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -133,7 +134,7 @@ body {
 
 .innernode {
     padding-left: .7rem;
-    padding-right: 2rem;    
+    padding-right: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     position: relative;
@@ -149,7 +150,7 @@ body {
 }
 
 
-.node-separtor{
+.node-separtor {
     font-weight: bold;
     font-size: 30px;
     position: relative;
@@ -163,14 +164,13 @@ body {
     transform: translateY(-7px);
     height: 40px;
     width: 70px;
-    text-shadow:1px 1px 2px #504545;
+    text-shadow: 1px 1px 2px #504545;
     color: white;
 }
 
 .menu {
     font-size: 60px;
     font-weight: bolder;
-
 }
 
 @media (hover:hover) and (max-width:505px) {
@@ -189,8 +189,8 @@ body {
 }
 
 .menu:hover {
-    opacity:70% ;
-    text-shadow:3px 3px 7px black;
+    opacity: 70%;
+    text-shadow: 3px 3px 7px black;
     font-size: 60px;
     color: white;
     letter-spacing: 1.4rem;
@@ -210,8 +210,8 @@ body {
 
 }
 
-@media screen and (min-height:1000px){
-    .menubody{
+@media screen and (min-height:1000px) {
+    .menubody {
         top: 45%;
     }
 }
@@ -235,13 +235,10 @@ body {
 }
 
 .panel {
-    height: 230px;
     margin-left: 9%;
     margin-right: 9%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     border-radius: .2rem;
 }
 
@@ -268,39 +265,106 @@ body {
 }
 
 #biotext {
-    padding-left: 8rem;
+    padding-left: 5%;
     border-top-color: white;
     text-align: left;
     background-color: black;
     color: white;
     font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-    /* display: none; */
     font-size: 16px;
     line-height: 20px;
 }
 
+#biotext p {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#biotext p:nth-child(2) {
+    width: 27.5em;
+    border-right: .15em solid azure;
+    animation: typing 5s steps(30, end),
+        blink-cursor 1.5s step-end infinite;
+}
+
+#biotext p:nth-child(3) {
+    width: 35.8em;
+    border-right: .15em solid azure;
+    animation: typing 5s steps(30, end),
+        blink-cursor 1.5s step-end infinite;
+}
+
+#biotext p:nth-child(4) {
+    width: 20.5em;
+    border-right: .15em solid azure;
+    animation: typing 5s steps(30, end),
+        blink-cursor 1.5s step-end infinite;
+}
+
+#biotext p:nth-child(4) {
+    width: 20.4em;
+    border-right: .15em solid azure;
+    animation: typing 5s steps(30, end),
+        blink-cursor 1.5s step-end infinite;
+}
+
+#biotext p:nth-child(5) {
+    width: 24.3em;
+    border-right: .15em solid azure;
+    animation: typing 5s steps(30, end),
+        blink-cursor 1.5s step-end infinite;
+}
+
+#biotext p:nth-child(6) {
+    width: 21em;
+    border-right: .15em solid azure;
+    animation: typing 5s steps(30, end),
+        blink-cursor 1.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border: none;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border: none;
+    }
+}
+
 #codepanel {
-    background-image: url("img/pixelcloudcastle.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    justify-content: center;
+    height: auto;
     display: flex;
     width: auto;
-    /* display: none; */
-
 }
 
 .innerpanel {
     height: 300px;
-    width: auto;
     filter: grayscale(1);
-    /* background-color: white; */
-    display: inline-block;
-    /* height: auto;
-    width: 50%; */
-    text-align: center;
+    /* display: inline-block; */
     border-radius: 5px;
-
 }
 
 .innerpanel:hover {
@@ -314,10 +378,11 @@ body {
 }
 
 .space-between {
-    width: 10rem;
+    width: 2rem;
 }
 
-.codeheadline{
+
+.codeheadline {
     position: absolute;
     color: azure;
     background-color: #285943;
@@ -326,12 +391,10 @@ body {
 }
 
 #projectspanel {
-    background-image: url("img/dragonIsland.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    justify-content: center;
+    width: auto;
     position: relative;
     display: flex;
-    /* display: none; */
 }
 
 /* #dragon-chronicles{
@@ -425,7 +488,7 @@ body {
 
 #gmail:hover {
     opacity: 70%;
-    text-shadow:1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
     color: white;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
