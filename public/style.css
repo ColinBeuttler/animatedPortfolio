@@ -268,7 +268,12 @@ body {
 }
 
 #biotext {
-    padding-left: 5%;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3%;
     border-top-color: white;
     text-align: left;
     background-color: black;
@@ -349,17 +354,25 @@ body {
 
 }
 
-#biotext p:nth-child(7) {
-    opacity: 0;
+#biotext a:nth-child(7) {
+    text-decoration: none;
+    color: azure;
+    visibility: hidden;
     width: 7em;
-    border-right: .15em solid orange;
-    -webkit-animation: type1 2s steps(40, end) blink .5s step-end infinite alternate;
-    animation: type1 2s steps(40, end) blink .5s step-end infinite alternate;
+    -webkit-animation: type1 2s steps(40, end), blink 400ms steps(40) infinite alternate;
+    animation: type1 2s steps(40, end), blink 400ms steps(40) infinite alternate;
+    animation-iteration-count: infinite;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+    border-right: .15em solid orange;
     animation-delay: 12.8s;
     -webkit-animation-delay: 12.8s;
 
+}
+
+#biotext a:nth-child(7):hover {
+    cursor: pointer;
+    color: blue;
 }
 
 @keyframes type1 {
@@ -392,33 +405,6 @@ body {
     }
 }
 
-@keyframes type2 {
-    0% {
-        width: 0;
-    }
-
-    1% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes type2 {
-    0% {
-        width: 0;
-    }
-
-    1% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 
 @keyframes blink {
 
