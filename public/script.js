@@ -7,6 +7,24 @@ const codepanel = document.getElementById("codepanel")
 const other = document.getElementById("other")
 const otherpanel = document.getElementById("otherpanel")
 
+const videopanel = document.querySelectorAll(".innerpanel")
+
+function addVideoPlay(panel) {
+
+    for (let i = 0; i < panel.length; i++){
+    panel[i].addEventListener('mouseenter', function () {
+        panel[i].play();
+    })
+    panel[i].addEventListener('mouseout', function () {
+        panel[i].pause();
+    })
+}
+};
+
+addVideoPlay(videopanel);
+
+
+
 
 // about.onclick = function(){displayDiv(bio)}
 // code.onclick = function(){displayDiv(codepanel)}
