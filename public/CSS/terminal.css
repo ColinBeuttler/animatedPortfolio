@@ -1,12 +1,7 @@
-#about:active+.biotext {
-    display: block;
-}
-
 #biotext {
-    border-top: 25px solid rgb(59, 59, 59);
-    text-align: center;
     margin: auto;
-    width: 33%;
+    border-top: 25px solid rgb(59, 59, 59);
+    width: 630px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: left;
@@ -43,45 +38,33 @@
 }
 
 #biotext p {
+    visibility: hidden;
     padding-left: 2%;
     white-space: nowrap;
     overflow: hidden;
-}
-
-#biotext p:nth-child(3) {
-    visibility: hidden;
-    width: 27.5em;
     border-right: .15em solid orange;
     -webkit-animation: type1 2s steps(40, end);
     animation: type1 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+
+#biotext p:nth-child(3) {
+    width: 27.5em;
     animation-delay: 2s;
     -webkit-animation-delay: 2s;
 
 }
 
 #biotext p:nth-child(4) {
-    visibility: hidden;
     width: 35.8em;
-    border-right: .15em solid orange;
-    -webkit-animation: type1 2s steps(40, end);
-    animation: type1 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
     animation-delay: 4.1s;
     -webkit-animation-delay: 4.1s;
 
 }
 
 #biotext p:nth-child(5) {
-    visibility: hidden;
     width: 21.8em;
-    border-right: .15em solid orange;
-    -webkit-animation: type1 2s steps(40, end);
-    animation: type1 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
     animation-delay: 6.2s;
     -webkit-animation-delay: 6.2s;
 
@@ -89,26 +72,14 @@
 
 
 #biotext p:nth-child(6) {
-    visibility: hidden;
     width: 24.3em;
-    border-right: .15em solid orange;
-    -webkit-animation: type1 2s steps(40, end);
-    animation: type1 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
     animation-delay: 8.5s;
     -webkit-animation-delay: 8.5s;
 
 }
 
 #biotext p:nth-child(7) {
-    visibility: hidden;
     width: 21em;
-    border-right: .15em solid orange;
-    -webkit-animation: type1 2s steps(40, end);
-    animation: type1 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
     animation-delay: 10.7s;
     -webkit-animation-delay: 10.7s;
 

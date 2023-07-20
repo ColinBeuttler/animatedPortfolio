@@ -1,5 +1,7 @@
 #contactpanel {
     width: 92%;
+    z-index: 1;
+    position: fixed;
 }
 
 .contactlink {

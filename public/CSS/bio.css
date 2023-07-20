@@ -11,7 +11,7 @@
 }
 
 
-.portrait {
+/* .portrait {
     margin-right: 5%;
     background-position: center;
     margin-top: 4.5rem;
@@ -21,23 +21,43 @@
     background-color: black;
     border-radius: 5rem;
     background-image: url("img/2nniue.jpg");
-}
+} */
 
 .bio {
-    line-height: 35px;
-    padding-top: 13%;
-    float: left;
-    padding-left: 9rem;
+    padding: 9%;
 }
 
-.greeting {
-    animation: .7s ease-out .7s 1 slideInFromLeft;
+.biowrapper {
+    float: left;
+    padding-bottom: 7%;
+    margin: auto;
+    line-height: 35px;
+    width: 610px;
+}
+
+@media screen and (max-width:1000px) {
+    .bio {
+        padding-top: 40%;
+    }
+
+    .biowrapper {
+        padding-bottom: 30%;
+    }
+}
+
+@media screen and (min-width:2230px) {
+    .bio {
+        padding-bottom: 5%;
+    }
+
+    .biowrapper {
+        padding-left: 20%;
+        padding-bottom: 4%;
+    }
 }
 
 .welcome {
-    padding-bottom: 2rem;
     font-weight: bold;
-    float: left;
     font-size: 60px;
     letter-spacing: .5rem;
     color: #83385C;
@@ -46,58 +66,28 @@
 .welcome:after {
     font-family: sans-serif;
     content: "!";
-    color: grey;
+    color: black;
 }
 
 .im {
     letter-spacing: .7rem;
-    margin-left: 2rem;
     color: grey;
     font-size: 50px;
 }
 
 .name {
     animation: 1s ease-out 1s 1 slideInFromLeft;
-    margin-top: 4rem;
-    width: 100%;
     letter-spacing: .5rem;
-    content: none;
-    font-size: 50px;
+    color: black;
+    font-size: 80px;
     word-spacing: 8px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-}
-
-.colin {
-    color: black;
-    font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 1rem;
-    /* border-bottom: 0.3rem dotted rgb(238, 5, 5); */
-}
-
-.colin:hover {
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-}
-
-.beuttler {
-    color: black;
-    font-size: 80px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 1rem;
 }
 
 .divider {
-    --text-divider-gap: 1rem;
     display: flex;
-    align-items: center;
-    width: 100%;
-    margin-top: 2rem;
+    width: 610px;
+    padding-top: 3rem;
     color: black;
 }
 
@@ -110,18 +100,15 @@
 }
 
 .skillnode {
+    margin-top: -2.5rem;
     animation: 1.3s ease-out 1.3s 1 slideInFromLeft;
-    margin-top: -1rem;
-    position: absolute;
-    justify-content: center;
 }
 
 .innernode {
-    padding-left: .7rem;
-    padding-right: 2rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    position: relative;
     font-size: 20px;
     height: 22px;
     border-top-left-radius: 4rem;
@@ -136,7 +123,6 @@
 .node-separtor {
     font-weight: bold;
     font-size: 30px;
-    position: relative;
     color: darkgray;
 }
 
