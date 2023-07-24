@@ -1,12 +1,10 @@
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
-        visibility: hidden;
     }
 
     100% {
         transform: translateX(0);
-        visibility: visible;
     }
 }
 
@@ -133,7 +131,7 @@
     color: darkgray;
 }
 
-.innernode:hover:active {
+.innernode:hover {
     box-shadow: inset 300px 0 0 0 black;
     opacity: 70%;
     cursor: pointer;

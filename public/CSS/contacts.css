@@ -1,10 +1,11 @@
 #contactpanel {
-    width: 92%;
+    width: 100%;
     z-index: 1;
     position: fixed;
 }
 
 .contactlink {
+    animation: fadeIn 5s;
     background-position: center;
     object-fit: fill;
     background-repeat: no-repeat;
@@ -12,9 +13,19 @@
     transition: all .3s ease;
 }
 
-.contactlink:hover:active {
+.contactlink:hover {
     opacity: 60%;
     box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 #github {
@@ -61,6 +72,8 @@
 }
 
 #gmail {
+    padding-right: 10%;
+    animation: fadeIn 5s;
     text-decoration: none;
     font-family: fantasy;
     padding-left: 1.3rem;
@@ -73,7 +86,7 @@
     font-size: 16px;
 }
 
-#gmail:hover:active {
+#gmail:hover {
     opacity: 70%;
     text-shadow: 1px 1px 2px black;
     color: white;

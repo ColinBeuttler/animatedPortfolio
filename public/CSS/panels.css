@@ -22,7 +22,7 @@ body {
     content: ">";
 }
 
-.menu:hover:active {
+.menu:hover {
     opacity: 70%;
     text-shadow: 3px 3px 7px black;
     font-size: 60px;
@@ -126,7 +126,7 @@ body {
     border-radius: 5px;
 }
 
-.innerpanel:hover:active {
+.innerpanel:hover {
     height: 300px;
     width: auto;
     filter: grayscale(0);
