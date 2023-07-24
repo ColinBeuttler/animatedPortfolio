@@ -1,6 +1,7 @@
 #biotext {
     visibility: hidden;
     margin: auto;
+    margin-top: 2%;
     border-top: 25px solid rgb(59, 59, 59);
     width: 630px;
     padding-top: 1rem;
