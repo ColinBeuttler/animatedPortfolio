@@ -9,6 +9,14 @@ const otherpanel = document.getElementById("otherpanel")
 
 const videopanel = document.querySelectorAll(".innerpanel")
 
+window.addEventListener("load", function () {
+    setTimeout(
+        function open(event) {
+              bio.style.visibility = "visible"
+        }, 350
+    )
+})
+
 function addVideoPlay(panel) {
 
     for (let i = 0; i < panel.length; i++){

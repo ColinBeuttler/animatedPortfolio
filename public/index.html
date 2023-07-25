@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/panels.css">
+    <link rel="stylesheet" href="CSS/bio.css">
+    <link rel="stylesheet" href="CSS/contacts.css">
+    <link rel="stylesheet" href="CSS/terminal.css">
+
 </head>
 
 <body>
@@ -27,42 +31,45 @@
 
     <div class="bio">
         <!-- <div class="portrait"></div> -->
-        <div class="greeting">
-            <a class="welcome">Hello</a>
-            <a class="im">My name is</a>
+
+        <div class="biowrapper">
+            <div class="greeting">
+                <a class="welcome">Hello</a>
+                <a class="im">My name is</a>
+            </div>
+
+            <h1 class="name">
+                <a class="colin">Colin</a>
+                <a class="beuttler">Beuttler</a>
+                <div class="divider"></div>
+            </h1>
+
+            <div class="skillnode">
+                <a class="innernode" id="js">JS Developer</a>
+                <a class="node-separtor">/</a>
+                <a class="innernode" id="java">Java Developer</a>
+                <a class="node-separtor">/</a>
+                <a class="innernode" id="kotlin">Android/Kotlin Developer</a>
+            </div>
         </div>
 
-        <h1 class="name">
 
-            <a class="colin">Colin</a>
-            <a class="beuttler">Beuttler</a>
-            <div class="divider"></div>
-        </h1>
-        <div class="skillnode">
-            <a class="innernode" id="js">JS Developer</a>
-            <a class="node-separtor">/</a>
-            <a class="innernode" id="java">Java Developer</a>
-            <a class="node-separtor">/</a>
-            <a class="innernode" id="kotlin">Android/Kotlin Developer</a>
-        </div>
-
-    </div>
-
-    <div class="menubody">
-        <div class="menu" id="about">
-            about
-        </div>
-
-        <div id="biotext">
-            <p>-bash-3.2$ groups
-                unixuser feegroup figroup fogroup fumgroup</p>
+        <fieldset id="biotext">
+            <legend class="terminalLegend">about</legend>
+            <a>-bash-3.2$ groups
+                unixuser feegroup figroup fogroup fumgroup</a>
             <p>-Self-Taught/Boot Camp Graduate with many projects</p>
             <p>-Experience with Mobile and Web Development with modern languages</p>
             <p>-Regularly updated GitHub and LinkedIn</p>
             <p>-Active on Social Media with quick responses</p>
             <p>-Available for Full and Part time work</p>
             <a href="https://1drv.ms/w/s!AtgPspX-oSlPjLw6booJFFIk8R3N2A?e=5dbdQa" id="resume">-Resume Here</a>
-        </div>
+        </fieldset>
+
+    </div>
+
+    <div class="menubody">
+
         <div class="menu" id="code">
             code
         </div>
@@ -106,18 +113,18 @@
                 <video class="innerpanel" id="restaurantApp" src="img/restaurantAppVideo.mp4" type="video/mp4"
                     muted="muted"></video>
             </a>
-            <div class="space-between"></div>
+            <div class="space-between-projects"></div>
             <a href="https://github.com/ColinBeuttler/JavaBlackJack">
                 <video class="innerpanel" id="blackjack" src="img/javaBlackJackVideo.mp4" type="video/mp4"
                     muted="muted">JavaBlackJack</video>
             </a>
 
-            <div class="space-between"></div>
+            <div class="space-between-projects"></div>
             <a href="https://github.com/ColinBeuttler/Mapty">
                 <video class="innerpanel" id="mapty" src="img/maptyVideo.mp4" type="video/mp4"
                     muted="muted">Mapty</video>
             </a>
-            <div class="space-between"></div>
+            <div class="space-between-projects"></div>
             <a href="https://github.com/ColinBeuttler/DragonChronicles">
                 <video class="innerpanel" id="dragon-chronicles" src="img/dragonChroniclesVideo.mp4" type="video/mp4"
                     muted="muted">Dragon
