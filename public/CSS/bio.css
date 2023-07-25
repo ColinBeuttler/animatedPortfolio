@@ -1,6 +1,6 @@
-@keyframes slideInFromLeft {
+@keyframes slideup {
     0% {
-        transform: translateY(80%);
+        transform: translateY(20%);
         opacity: 0;
     }
 
@@ -65,7 +65,7 @@
 }
 
 .greeting {
-    animation: .5s ease-out .5s 1 slideInFromLeft;
+    animation: .5s ease-out .5s 1 slideup;
     position: relative;
     background: #69775c9f;
     line-height: 80px;

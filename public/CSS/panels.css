@@ -2,6 +2,18 @@ body {
     background-color: #C8D3BD;
 }
 
+@keyframes onload {
+    0% {
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .menu {
     font-size: 60px;
     font-weight: bolder;
@@ -120,10 +132,12 @@ body {
 }
 
 .innerpanel {
+    animation: onload 2s;
     height: 300px;
     filter: grayscale(1);
-    /* display: inline-block; */
     border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .innerpanel:hover {
@@ -132,8 +146,6 @@ body {
     filter: grayscale(0);
     transform: translateY(-7px);
     box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
 }
 
 .space-between {
