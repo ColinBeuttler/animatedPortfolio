@@ -124,7 +124,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "Transitions - JS";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: block;
@@ -137,7 +137,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "Recycler View - Java";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: block;
@@ -150,7 +150,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "Iteration - JS";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: block;
@@ -163,7 +163,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "Activity Navigation - Kotlin";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: block;
@@ -177,7 +177,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "Restaurant App";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: block;
@@ -190,7 +190,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "BlackJack - Java";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: block;
@@ -203,7 +203,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "Mapty - JS";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: block;
@@ -216,7 +216,7 @@ body {
     margin-top: -1rem;
     z-index: 1;
     content: "Dragon Chronicles";
-    background-color: #83385C;
+    background-color: #83385cCC;
     color: azure;
     position: absolute;
     display: wrap;
@@ -255,6 +255,20 @@ body {
     }
 }
 
+@media screen and (max-width:770px) {
+    #restaurantApp::before {
+        margin-left: 7.8rem;
+    }
+
+    #mapty::before {
+        margin-left: 4rem;
+    }
+
+    #blackjack::before {
+        margin-left: 4rem;
+    }
+}
+
 @media screen and (min-width:770px) {
     #codepanel {
         justify-content: center;
@@ -263,7 +277,6 @@ body {
     #projectspanel {
         justify-content: center;
     }
-
 
 }
 
