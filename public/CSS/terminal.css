@@ -2,7 +2,7 @@
     visibility: hidden;
     margin: auto;
     margin-top: 2%;
-    border-top: 25px solid rgb(59, 59, 59);
+    border-top: 30px solid rgb(59, 59, 59);
     width: 630px;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -15,6 +15,8 @@
 }
 
 .terminalLegend {
+    padding-top: 5px;
+    font-size: 20px;
     width: 100%;
     height: 25px;
     background-color: rgb(59, 59, 59);
@@ -26,7 +28,7 @@
 }
 
 .terminalLegend::before {
-    content: "git";
+    content: "";
     float: left;
 }
 

@@ -25,9 +25,9 @@
 
 .bio {
     padding-bottom: 7%;
-    padding-left: 9%;
+    padding-left: 7%;
     padding-top: 10%;
-    padding-right: 9%;
+    padding-right: 7%;
 }
 
 .biowrapper {
@@ -42,7 +42,7 @@
     width: 610px;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1564px) {
     .bio {
         padding-top: 20%;
     }

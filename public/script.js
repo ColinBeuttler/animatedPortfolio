@@ -9,6 +9,8 @@ const otherpanel = document.getElementById("otherpanel")
 
 const videopanel = document.querySelectorAll(".innerpanel")
 
+const menubody = document.querySelector(".menubody")
+
 window.addEventListener("load", function () {
     setTimeout(
         function open(event) {
@@ -31,26 +33,16 @@ function addVideoPlay(panel) {
 
 addVideoPlay(videopanel);
 
-
-
-
-// about.onclick = function(){displayDiv(bio)}
-// code.onclick = function(){displayDiv(codepanel)}
-// other.onclick = function(){displayDiv(otherpanel)}
-
-// function displayDiv(divbox){
-
-//     if(divbox.style.display != "none"){
-//        divbox.style = "display:none"
-//        divbox.classList.add("panel", "out") 
+// window.addEventListener('wheel', function (event) {
+//     if (event.deltaY > 0) {
+//         menubody.style.display = "block";
+//         console.log("scrolled")
 //     }
-//   else{
-//     divbox.style = "display:block"
-//     divbox.classList.add("panel", "in")
-
-//   }
+//     else if (event.deltaY < 10) {
+//         menubody.style.display = "none";
+//     }
     
-// }
-// displayDiv(otherpanel)
-// displayDiv(codepanel)
-// displayDiv(bio)
+    
+// })
+
+
