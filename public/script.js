@@ -33,16 +33,16 @@ function addVideoPlay(panel) {
 
 addVideoPlay(videopanel);
 
-window.addEventListener('wheel', function (event) {
-    if (event.deltaY > 0) {
-        menubody.style.display = "block";
-        console.log("scrolled")
-    }
-    // else if (event.deltaY < 10) {
-    //     menubody.style.display = "none";
-    // }
+// window.addEventListener('wheel', function (event) {
+//     if (event.deltaY > 0) {
+//         menubody.style.display = "block";
+//         console.log("scrolled")
+//     }
+//     else if (event.deltaY < 10) {
+//         menubody.style.display = "none";
+//     }
     
     
-})
+// })
 
 
