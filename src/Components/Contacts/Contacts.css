@@ -1,0 +1,83 @@
+#contactpanel {
+    width: 50%;
+    z-index: 2;
+    position: fixed;
+    margin-left: 40%;
+}
+
+.contactlink {
+    animation: fadeIn 5s;
+    background-position: center;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contactlink:hover {
+    opacity: 60%;
+    box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#github {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: .7rem;
+    float: right;
+    height: 25px;
+    width: 25px;
+    border-radius: 4rem;
+    background: url("../../img/github-mark40px.png");
+    background-size:contain;
+}
+
+@media screen and (max-width: 550px) {
+    #github {
+        margin-top: .5rem;
+        float: left;
+        margin-left: 1rem;
+    }
+}
+
+#linkedIn {
+    border-radius: 4rem;
+    float: right;
+    margin-top: .7rem;
+    height: 25px;
+    width: 25px;
+    background-image: url("../../img/Linkedin50px.png");
+    background-size:contain;
+}
+
+@media screen and (max-width: 336px) {
+    #linkedIn {
+        float: left;
+        margin-top: .5rem;
+        margin-left: .5rem;
+    }
+
+    #gmail {
+        position: absolute;
+        float: left;
+    }
+}
+
+#gmail {
+    border-radius: 4rem;
+    float: right;
+    margin-top: .7rem;
+    height: 25px;
+    width: 25px;
+    background-image:url("../../img/blackMailLogo.png");
+    background-size:contain;
+}

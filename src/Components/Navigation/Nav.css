@@ -1,0 +1,36 @@
+.navBar{
+    float: left;
+    margin-top: 15px;
+    position: fixed;
+}
+
+.navLink{
+    text-decoration: none;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #32392c9f;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.navLink:hover{
+    color: black;
+}
+
+.node-separtor {
+    font-weight: bold;
+    font-size: 15px;
+    color: darkgray;
+}
+
+.active{
+    color: black;
+}
+
+.active::before{
+    margin-left: -.7rem;
+    margin-top: 4px;
+    font-size: 8px;
+    content:"🌌";
+    position: absolute;
+}

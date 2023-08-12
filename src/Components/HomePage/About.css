@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&family=Rock+Salt&display=swap');
+
+@keyframes slideup {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* .portrait {
+    margin-right: 5%;
+    background-position: center;
+    margin-top: 4.5rem;
+    height: 120px;
+    width: 112px;
+    float: left;
+    background-color: black;
+    border-radius: 5rem;
+    background-image: url("img/2nniue.jpg");
+} */
+
+.bio {
+    padding-bottom: 7%;
+    padding-left: 5%;
+    /* padding-top: 9%; */
+    padding-right: 7%;
+}
+
+.biowrapper {
+    border-radius: 3rem;
+    padding-top: 3rem;
+    float: left;
+    padding-bottom: 1.3rem;
+    margin: auto;
+    line-height: 35px;
+    width: 380px;
+}
+
+@media screen and (max-width:1564px) {
+    .bio {
+        padding-top: 10%;
+    }
+
+    .biowrapper {
+        padding-bottom: 5%;
+        margin-bottom: 7%;
+    }
+}
+
+@media screen and (min-width:2230px) {
+    .bio {
+        padding-bottom: 5%;
+    }
+
+    .biowrapper {
+        padding-left: 20%;
+        padding-bottom: 4%;
+    }
+}
+
+.greeting {
+    font-family: 'Rock Salt', cursive;
+    animation: .5s ease-out .5s 1 slideup;
+    position: relative;
+    background: #69775c9f;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.greeting::after {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #69775c9f transparent transparent;
+    bottom: -19.5px;
+    left: 84%;
+    margin-left: -10px;
+}
+
+.welcome {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: .1rem;
+    color: #83385C;
+}
+
+.welcome:after {
+    font-family: 'Rock Salt', cursive;
+    content: "!";
+    color: black;
+}
+
+.im {
+    letter-spacing: .2rem;
+    color: rgb(250, 250, 250);
+    font-size: 30px;
+}
+
+.name {
+    letter-spacing: .2rem;
+    color: black;
+    font-size: 65px;
+    word-spacing: 30px;
+    font-family: 'Bangers', cursive;
+}
+.colin{
+    padding-right: 20px;
+}
+
+.divider {
+    padding-left: 4px;
+    display: flex;
+    width: 390px;
+    padding-top: 24px;
+    color: black;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    height: 1px;
+    background-color: black;
+    flex-grow: 1;
+}
+
+.skillnode {
+    margin-top: -2.5rem;
+}
+
+.innernode {
+    padding-left: .7rem;
+    padding-right: .7rem;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    font-weight: bold;
+    font-size: 10px;
+    height: 22px;
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: rgb(83, 83, 83);
+    transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
+}
+
+
+.node-separtor {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+.innernode:hover {
+    box-shadow: inset 300px 0 0 0 black;
+    opacity: 70%;
+    cursor: pointer;
+    transform: translateY(-7px);
+    height: 40px;
+    width: 70px;
+    text-shadow: 1px 1px 2px #504545;
+    color: white;
+}
