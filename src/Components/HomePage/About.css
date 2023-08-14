@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&family=Josefin+Sans&family=Rock+Salt&family=VT323&display=swap');
 
 @keyframes slideup {
     0% {
@@ -65,7 +65,7 @@
 }
 
 .greeting {
-    font-family: 'Rock Salt', cursive;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
     animation: .5s ease-out .5s 1 slideup;
     position: relative;
     background: #69775c9f;
@@ -96,7 +96,6 @@
 }
 
 .welcome:after {
-    font-family: 'Rock Salt', cursive;
     content: "!";
     color: black;
 }
@@ -108,11 +107,11 @@
 }
 
 .name {
-    letter-spacing: .2rem;
+    font-weight: bold;
     color: black;
-    font-size: 65px;
+    font-size: 52px;
     word-spacing: 30px;
-    font-family: 'Bangers', cursive;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 .colin{
     padding-right: 20px;

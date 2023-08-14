@@ -46,7 +46,7 @@
     padding-left: 2%;
     white-space: nowrap;
     overflow: hidden;
-    border-right: .15em solid orange;
+    border-right: .15em solid goldenrod;
     -webkit-animation: type1 2s steps(40, end);
     animation: type1 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
@@ -108,7 +108,7 @@
 
 #biotext a:nth-child(8):hover {
     cursor: pointer;
-    color: blue;
+    color:goldenrod;
 }
 
 @keyframes type1 {
