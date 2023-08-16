@@ -29,14 +29,14 @@
 }
 
 #github {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: .7rem;
     float: right;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     border-radius: 4rem;
-    background: url("../../img/whiteCat.png");
+    background: url("../../img/github-mark.png");
     background-size:contain;
 }
 
@@ -49,12 +49,12 @@
 }
 
 #linkedIn {
-    border-radius: 4rem;
+    /* border-radius: 4rem; */
     float: right;
-    margin-top: .7rem;
-    height: 25px;
-    width: 25px;
-    background-image: url("../../img/Linkedin50px.png");
+    margin-top: .8rem;
+    height: 18px;
+    width: 18px;
+    background-image: url("../../img/LinkedInBlack.png");
     background-size:contain;
 }
 
@@ -72,11 +72,11 @@
 }
 
 #gmail {
-    border-radius: 4rem;
+    /* border-radius: 4rem; */
     float: right;
     margin-top: .7rem;
-    height: 25px;
-    width: 25px;
-    background-image:url("../../img/emailLogo.png");
+    height: 21px;
+    width: 21px;
+    background-image:url("../../img/gmailBlackLetter.png");
     background-size:contain;
 }

@@ -100,7 +100,7 @@
     animation-iteration-count: infinite;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    border-right: .15em solid orange;
+    border-right: .15em solid goldenrod;
     animation-delay: 12.8s;
     -webkit-animation-delay: 12.8s;
 
@@ -118,7 +118,7 @@
     }
 
     99.9% {
-        border-right: .15em solid orange;
+        border-right: .15em solid goldenrod;
     }
 
     100% {
@@ -133,7 +133,7 @@
     }
 
     99.9% {
-        border-right: .15em solid orange;
+        border-right: .15em solid goldenrod;
     }
 
     100% {

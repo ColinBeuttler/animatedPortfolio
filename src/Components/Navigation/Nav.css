@@ -29,7 +29,7 @@
 }
 
 .active::before{
-    margin-left: -.7rem;
+    margin-left: -.8rem;
     margin-top: -1px;
     font-size: 15px;
     content:"⚛";
