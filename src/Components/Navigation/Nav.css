@@ -7,14 +7,15 @@
     }
   } */
 
-.navBar{
+.navBar {
     margin-left: 3%;
     float: left;
     margin-top: 15px;
     position: fixed;
 }
 
-.navLink{
+.navLink {
+    font-size: 20px;
     text-decoration: none;
     position: relative;
     padding-right: 15px;
@@ -23,24 +24,24 @@
     font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.navLink:hover{
+.navLink:hover {
     color: black;
 }
 
 .node-separtor {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     color: darkgray;
 }
 
-.active{
+.active {
     color: black;
 }
 
-.active::before{
-    margin-left: -.8rem;
-    margin-top: -1px;
-    font-size: 15px;
-    content:"⚛";
+.active::before {
+    margin-left: -1rem;
+    margin-top: -3.5px;
+    font-size: 20px;
+    content: "⚛";
     position: absolute;
 }
