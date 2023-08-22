@@ -29,14 +29,16 @@
     padding-bottom: 7%;
     padding-left: 5%;
     padding-right: 7%;
+    padding-top: 10%;
 }
 
 .biowrapper {
+    margin-left: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 7%;
     border-radius: 3rem;
-    padding-top: 3rem;
+    padding-top: 10%;
     float: left;
-    padding-bottom: 1.3rem;
-    margin: auto;
     line-height: 35px;
     width: 380px;
 }
@@ -47,12 +49,13 @@
     }
 
     .biowrapper {
+        margin-left: 10%;
         padding-bottom: 5%;
         margin-bottom: 7%;
     }
 }
 
-@media screen and (min-width:2230px) {
+/* @media screen and (min-width:2230px) {
     .bio {
         padding-bottom: 5%;
     }
@@ -61,7 +64,7 @@
         padding-left: 20%;
         padding-bottom: 4%;
     }
-}
+} */
 
 .greeting {
     margin-left: 8px;
