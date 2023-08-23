@@ -228,12 +228,25 @@
     display: flex;
 }
 
+#codepanel {
+    display: flex;
+}
+
 @media screen and (max-width:1000px) {
     #projectspanel {
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 10px;
         row-gap: 20px;
+    }
+
+    @media screen and (max-width:1220px) {
+        #codepanel {
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+            row-gap: 20px;
+        }
     }
 
     #restaurantApp::before {

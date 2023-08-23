@@ -1,15 +1,14 @@
-
 #biotext {
     margin: auto;
     border-top: 27.5px solid rgb(59, 59, 59);
-    width: 400px;
+    width: 435px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.603);
     color: white;
     font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
 }
 
@@ -107,7 +106,7 @@
 
 #biotext a:nth-child(8):hover {
     cursor: pointer;
-    color:goldenrod;
+    color: goldenrod;
 }
 
 @keyframes type1 {
@@ -151,5 +150,25 @@
 @-webkit-keyframes blink {
     50% {
         border-color: transparent;
+    }
+}
+
+@media screen and (min-height:750px) and (min-width:900px) {
+    #biotext {
+        font-size: 16px;
+        width: 580px;
+        line-height: 16px;
+        border-top: 32px solid rgb(59, 59, 59);
+    }
+
+    .terminalLegend {
+        font-size: 18px;
+        height: 25px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    #biotext {
+        margin-top: 100px;
     }
 }
