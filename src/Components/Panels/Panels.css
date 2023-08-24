@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&family=Rock+Salt&family=VT323&display=swap');
+
+@keyframes onload {
+    0% {
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#transitions::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    padding: 3px;
+    margin-top: -10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 2rem;
+    z-index: 1;
+    content: "Transitions - JS";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: block;
+}
+
+#recyclerview::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-top: -10px;
+    margin-left: 2rem;
+    z-index: 1;
+    content: "Recycler View - Java";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: block;
+}
+
+#iteration::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-top: -10px;
+    margin-left: 2rem;
+    z-index: 1;
+    content: "Iteration - JS";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: block;
+}
+
+#activity::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-top: -10px;
+    margin-left: 2rem;
+    z-index: 1;
+    content: "Activity Navigation - Kotlin";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: block;
+}
+
+
+#restaurantApp::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-top: -12px;
+    margin-left: 1.7rem;
+    z-index: 1;
+    content: "Restaurant App";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: block;
+}
+
+#blackjack::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-top: -10px;
+    margin-left: 2rem;
+    z-index: 1;
+    content: "BlackJack - Java";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: block;
+}
+
+#mapty::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-top: -10px;
+    margin-left: 2rem;
+    z-index: 1;
+    content: "Mapty - JS";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: block;
+}
+
+#dragonChronicles::before {
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-top: -12px;
+    margin-left: 1rem;
+    z-index: 1;
+    content: "Dragon Chronicles";
+    background-color: #83385C;
+    color: azure;
+    position: absolute;
+    display: wrap;
+}
+
+.panel {
+    padding-top: 15%;
+    padding-bottom: 3%;
+    border-radius: .2rem;
+}
+
+/* .panel:hover {
+    height: 400px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+
+} */
+
+.in {
+    -webkit-transition: all 1s ease;
+    transition: "in:wipe:cinematic";
+}
+
+.out {
+    -webkit-transition: all 1s ease;
+    transition: "out:wipe:cinematic";
+}
+
+
+@media screen and (max-width:1380px) {
+    #codepanel {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 20px;
+
+    }
+
+    .space-between {
+        display: none;
+    }
+}
+
+@media screen and (min-width:770px) {
+
+    #codepanel {
+        justify-content: center;
+    }
+
+    #projectspanel {
+        justify-content: center;
+    }
+}
+
+.innerpanel {
+    animation: onload 2s;
+    height: 250px;
+    filter: grayscale(1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.innerpanel:hover {
+    /* height: 300px; */
+    width: auto;
+    filter: grayscale(0);
+    transform: translateY(-7px);
+    box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+.space-between {
+    width: 3rem;
+}
+
+.space-between-projects {
+    width: 3rem;
+}
+
+
+.codeheadline {
+    position: absolute;
+    color: azure;
+    background-color: #285943;
+    font-size: 40px;
+    z-index: 100;
+}
+
+#projectspanel {
+    display: flex;
+}
+
+#codepanel {
+    display: flex;
+}
+
+@media screen and (max-width:1000px) {
+    #projectspanel {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    @media screen and (max-width:1220px) {
+        #codepanel {
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+            row-gap: 20px;
+        }
+    }
+
+    #restaurantApp::before {
+        margin-left: 5.3rem;
+    }
+
+    .space-between-projects {
+        display: none;
+    }
+}

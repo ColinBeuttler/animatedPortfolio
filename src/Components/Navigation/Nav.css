@@ -1,0 +1,47 @@
+/* @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+
+.navBar {
+    margin-left: 3%;
+    float: left;
+    margin-top: 15px;
+    position: fixed;
+}
+
+.navLink {
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #32392c9f;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.navLink:hover {
+    color: black;
+}
+
+.node-separtor {
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgray;
+}
+
+.active {
+    color: black;
+}
+
+.active::before {
+    margin-left: -1rem;
+    margin-top: -3.5px;
+    font-size: 20px;
+    content: "⚛";
+    position: absolute;
+}

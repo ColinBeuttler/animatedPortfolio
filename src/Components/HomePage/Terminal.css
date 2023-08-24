@@ -1,0 +1,174 @@
+#biotext {
+    margin: auto;
+    border-top: 27.5px solid rgb(59, 59, 59);
+    width: 435px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.terminalLegend {
+    padding-top: 7px;
+    font-size: 16px;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(59, 59, 59);
+    color: goldenrod;
+}
+
+.terminalLegend:hover {
+    color: azure;
+}
+
+.terminalLegend::before {
+    content: "";
+    float: left;
+}
+
+.terminalLegend::after {
+    padding-top: 3px;
+    font-family: Lucida Console;
+    font-size: 16px;
+    content: "— □ x";
+    letter-spacing: .3rem;
+    float: right;
+}
+
+#biotext p {
+    visibility: hidden;
+    padding-left: 2%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid goldenrod;
+    -webkit-animation: type1 2s steps(40, end);
+    animation: type1 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+#biotext p:nth-child(3) {
+    width: 27.5em;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+
+}
+
+#biotext p:nth-child(4) {
+    width: 35.8em;
+    animation-delay: 4.1s;
+    -webkit-animation-delay: 4.1s;
+
+}
+
+#biotext p:nth-child(5) {
+    width: 21.8em;
+    animation-delay: 6.2s;
+    -webkit-animation-delay: 6.2s;
+
+}
+
+
+#biotext p:nth-child(6) {
+    width: 24.3em;
+    animation-delay: 8.5s;
+    -webkit-animation-delay: 8.5s;
+
+}
+
+#biotext p:nth-child(7) {
+    width: 21em;
+    animation-delay: 10.7s;
+    -webkit-animation-delay: 10.7s;
+
+}
+
+#biotext a:nth-child(8) {
+    padding-left: 2%;
+    text-decoration: none;
+    color: azure;
+    visibility: hidden;
+    width: 7em;
+    -webkit-animation: type1 2s steps(40, end), blink 400ms steps(40) infinite alternate;
+    animation: type1 2s steps(40, end), blink 400ms steps(40) infinite alternate;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    border-right: .15em solid goldenrod;
+    animation-delay: 12.8s;
+    -webkit-animation-delay: 12.8s;
+
+}
+
+#biotext a:nth-child(8):hover {
+    cursor: pointer;
+    color: goldenrod;
+}
+
+@keyframes type1 {
+    0% {
+        width: 0;
+        visibility: visible;
+    }
+
+    99.9% {
+        border-right: .15em solid goldenrod;
+    }
+
+    100% {
+        border: none;
+        visibility: visible;
+    }
+}
+
+@-webkit-keyframes type1 {
+    0% {
+        width: 0;
+    }
+
+    99.9% {
+        border-right: .15em solid goldenrod;
+    }
+
+    100% {
+        border: none;
+    }
+}
+
+
+@keyframes blink {
+
+    50% {
+        border-color: transparent;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@media screen and (min-height:750px) and (min-width:900px) {
+    #biotext {
+        font-size: 16px;
+        width: 580px;
+        line-height: 16px;
+        border-top: 32px solid rgb(59, 59, 59);
+    }
+
+    .terminalLegend {
+        font-size: 18px;
+        height: 25px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    #biotext {
+        margin-top: 100px;
+    }
+}
