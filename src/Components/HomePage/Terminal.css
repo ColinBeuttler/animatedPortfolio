@@ -172,3 +172,38 @@
         margin-top: 100px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    #biotext {
+        margin-left: 20px;
+        width: 345px;
+    }
+
+    #biotext p {
+        font-size: 10px;
+    }
+
+    #biotext a {
+        font-size: 10px;
+    }
+
+    #biotext p:nth-child(3) {
+        width: 300px;
+    }
+
+    #biotext p:nth-child(4) {
+        width: 260px;
+    }
+
+    #biotext p:nth-child(5) {
+        width: 240px;
+    }
+
+    #biotext p:nth-child(6) {
+        width: 270px;
+    }
+
+    #biotext p:nth-child(7) {
+        width: 240px;
+    }
+}
